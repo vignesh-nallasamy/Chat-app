@@ -5,8 +5,8 @@ import {auth,db} from "../firebase/Fire.js"
 
 function Login() {
 
-const [email, setemail] = useState("vicky@gmail.com")
-const [password, setpassword] = useState("123456789")
+const [email, setemail] = useState("")
+const [password, setpassword] = useState("")
 const [err,seterr] = useState("")
 
 const formSubmit = (e)=>{

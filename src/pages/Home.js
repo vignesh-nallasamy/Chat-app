@@ -69,10 +69,10 @@ useEffect(() => {
                 
                     <Card name={name} email={email} photoUrl={photoUrl}></Card>
                     <div className="row mt-3">
-                        <div className="col-3 text-center"><button className="btn  rounded">Update</button></div>
-                        <div className="col-3 text-center"><Link to="/friendlist" className="btn  rounded">Friend List</Link></div>
-                        <div className="col-3 text-center"><Link to="/grouplist" className="btn rounded">Chat Groups</Link></div>
-                        <div className="col-3 text-center"><Link to="/blocklist" className="btn rounded">Blocks</Link></div>
+                        
+                        <div className="col-4 text-center"><Link to="/friendlist" className="btn  rounded">Friend List</Link></div>
+                        <div className="col-4 text-center"><Link to="/grouplist" className="btn rounded">Chat Groups</Link></div>
+                        <div className="col-4 text-center"><Link to="/blocklist" className="btn rounded">Blocks</Link></div>
                         
                     </div>
                 </div>
